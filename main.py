@@ -42,8 +42,8 @@ def sort_on(dict):
 def list_and_sort(dict):
      dict_list = []
      for d in dict:
-          tmp_list = list(d)
-          dict_list.append({"name": list[0],"num": list[1]})
+          #tmp_list = list(d)
+          dict_list.append({"name": d,"num": dict[d]})
      dict_list.sort(reverse=True,key=sort_on)
      return dict_list
 
